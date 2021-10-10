@@ -50,7 +50,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, error }) => {
 
     return (
         <>
-            <div className={classes.toolbar} />
+         <div className={classes.toolbar} />
             <main className={classes.layout}>
                 <Paper className={classes.paper}>
                     <Typography variant="h3" align="center">Checkout</Typography>
